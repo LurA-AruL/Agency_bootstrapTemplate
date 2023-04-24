@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creativeDesignAgency</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style1.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caramel&family=Caveat&family=Lato&family=Mulish&family=Poppins:wght@400;500;600;700;800&family=Roboto&family=Satisfy&display=swap" rel="stylesheet">
+    <!-- <script type="text/javascript" src="script.jsx"></script> -->
+</head>
+<body>
+        <div class="fluid-container position-relative p-5 h-auto">
+            <div class="container">
+                <div class="row">
+                    <div class="col position-relative" style="word-break:keep-all; letter-spacing: normal;"><img src="image/laptob image.png" class="w-100 position-relative" alt=""><img src="image/destopimg.png" class="position-absolute" alt="" id="lapimage"></div>
+                </div>
+            </div>
+        </div>
+
+    <!-- background -->
+
+        <div class=" position-absolute overflow-hidden" id="backgroundshow">
+            <div class="position-relative">
+                <div class="topcircle rounded-circle  position-absolute" id="topcircle1"></div>
+                <div class="topcircle2 rounded-circle position-absolute" id="topcircle2"></div>
+            </div>   
+        </div>
+        
+    <!-- structure body -->
+    <div class="w-75 bg-white m-auto shadow mb-5" id="structureBody">
+        <!-- top circle -->
+        <div class="p-1 w-100  d-flex shadow rounded-top rounded-3 " id="topcricle">
+            <div></div><div></div><div></div>
+        </div>
+        <!-- navbar -->
+        <nav class="fluid-container sticky-top navbar navbar-expand-md navbar-dark color">
+            <div class="container " id="gotohome">
+                <a class="navbar-brand" id="agency" href="#" >agency</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navlink" aria-controls="navlink" aria-expanded="false" aria-label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse mx-lg-5 justify-content-center" id="navlink">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a href="#structureBody" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="#gotoaboutus" class="nav-link text-white">About us</a></li>
+                   <li class="nav-item"> <a href="#gotoservices" class="nav-link text-white">Our Services</a></li>
+                    <li class="nav-item"><a href="#gotosupport" class="nav-link text-white">support</a></li>
+                </ul>
+                
+            </div>
+            <div class="p-1 d-flex justify-content-end d-none d-lg-block"><button class=" btn text-dark bg-light px-4 rounded-pill fw-bold" id="contactbtn">CONTACT</button></div>
+        </div>
+       </nav>
+       <!-- home page -->
+       <div class="container color p-5 overflow-hidden" id="homeradius">
+       <div class="row ">
+        <div class="col-1 col-lg-1 d-flex position-relative" id="li1">
+            <ul class="text-white position-absolute" >
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <ul class="text-white  position-absolute" >
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <ul class="text-white  position-absolute" >
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+            <ul class="text-white  position-absolute" >
+                <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
+            </ul>
+        </div>
+
+        <div class="col  d-flex justify-content-start flex-column text-white position-relative" id="homecda">
+            <h1>Creative Design Agency</h1>
+            <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt voluptas minus necessitatibus ipsam quod enim tenetur recusandae<span id="do">...</span><span id="RE"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore neque tempora nisi sapiente! Ratione ut quibusdam, est provident libero assumenda. quisquam nemo reprehenderit quibusdam repudiandae, nulla rerum quo dolorem tempora cupiditate a eius.</span></p>
+            <div><button class="btn btncolor rounded-pill ps-3" id="start" onclick="clickread('start','do','RE')">LEARN MORE</button></div>
+            <div class="homecirclelight position-absolute" ></div>
+            <div class="homecirclelight1 position-absolute"></div>
+        </div>
+
+        <div class="col d-flex  align-items-center position-relative">
+            <div class="text-end"><img id="svghomeimg" class="imgclip1 w-100" src="image/nava1.jfif" alt="there is some problems in this image"></div>
+            <!-- <svg height="0" width="0">
+                <defs>
+                    <clipPath id="svgPath">
+                        <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10" d="M215,100.3c97.8-32.6,2.5-71.9,306-77.6
+                    c92.4-2.1,98.1,81.6,121.8,116.4c101.7,149.9,53.5,155.9,14.7,178c-96.4,54.9,5.4,269-257,115.1c-57-33.5-203,46.3-263.7,20.1
+                    c-33.5-14.5-182.5-25.5-95-151.1C125.9,206.6,60.6,139.1,55,30.3z"/>
+                    </clipPath>
+                </defs>
+            </svg> -->
+            <div class="homecricleyellow "></div>
+            <div class="homecricleyellowdark "></div>
+        </div>
+    </div>
+    
+   </div>
+       <!-- home page end -->
+       <!-- about us body -->
+       <div class="fluid-container py-5" id="gotoaboutus">
+        <div class="container position-relative" >
+            <div class="row">
+                <div class="col position-relative">
+                    <div>
+                        <div class="bg"></div>
+                    <div class="c1"></div>
+                    <div class="r1"></div><div class="r2"></div>
+                    <div class="c3">
+                        <div class="c4" style="background-color:wheat;"><img src="image/projectimg.jfif" alt="no image found" class="w-100 h-100"></div><div class="c4" style="background-color:rgb(237, 179, 245)"><img src="image/project2img.jfif" alt="no image found" class="w-100 h-100"></div>
+                        <div class="i1"><i class="fa-brands fa-behance" style="color:white;"></i></div>
+                    </div>
+                    <i class="fa-brands fa-dribbble i2"></i>
+                    <!-- box message -->
+                    <div class="con">
+                        <div class="d-flex justify-content-around">
+                            <img src="image/manlogo.jfif" alt="no image found" class="rounded-circle" style="width:50px; height: 50px;">
+                            <div>
+                                <h3 style="color: rgb(160, 9, 198);margin: 0%">CHIRAG BACTOR</h3><p style="text-align: start;margin-top: 0%;">UI/UX Designer</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div style="display:flex;justify-content: space-around;">
+                            <div><i class="fa-brands fa-behance i3"></i></div>
+                            <span class="iname">View Behance Portfolio</span>
+                            <label class="toggle" for="myToggle">
+                                <input class="toggle__input" name="" type="checkbox" id="myToggle">
+                                <div class="toggle__fill"></div>
+                            </label>
+                        </div>
+                        
+                        <hr>
+                        <div style="display:flex;justify-content: space-around;">
+                            <div><i class="fa-brands fa-dribbble i4"></i></div>
+                            <span class="iname">View Dribble Portfolio</span>
+                            <label class="toggle" for="myToggle1">
+                                <input class="toggle__input" name="" type="checkbox" id="myToggle1">
+                                <div class="toggle__fill"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <!-- end -->
+                    </div>
+                </div>
+                <div class="col p-5">
+                    <div class="" id="homecda">
+                        <h5 class="text-color">ABOUT US</h5>
+                    <h1>Digital Agency Providing various Services</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore laudantium assumenda exercitationem sequi officia rem numquam enim a sunt <span id="dots">...</span><span id="READMORE" > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, corporis. Nostrum illo aliquid alias qui quae nam voluptate quibusdam distinctio? sit omnis quaerat quasi non ipsam, eaque id dolorem velit dolores?</span></p>
+                    <div><button class="btn bg-warning rounded-pill fw-bold px-4" id="one" onclick="clickread(id,'dots','READMORE')">LEARN MORE</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- about us body end-->
+       <!-- our service satrt -->
+       <div class="fluid-container py-5" id="ourser">
+        <div class="container p-lg-5" id="gotoservices">
+            <div class="row">
+                    <div class="col p-5 d-flex justify-content-end position-relative" id="gotoservices">
+                        <div class="" id="homecda">
+                            <h5 class="text-color">OUR SERVICES</h5>
+                        <h1>We can take your bussiness next level</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore laudantium assumenda exercitationem sequi officia rem numquam enim a sunt <span id="d1">...</span><span id="ro1"> sit omnis quaerat quasi non ipsam, eaque id dolorem velit dolores?</span></p>
+                        <div><button class="btn bg-warning rounded-pill fw-bold px-4" id="two" onclick="clickread('two','d1','ro1')">LEARN MORE</button></div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="d-flex flex-column justify-content-end p-3">
+                              <div class="card mb-3" style="width: 15rem;">
+                                <div class="w-100 fa-3x position-relative"><i class="fa-solid fa-display p-3"> <i class="fa-solid fa-play position-absolute playbtn"></i></i></div>
+                                <div class="card-body">
+                                  <h5 class="card-title">UI/UX Design</h5>
+                                  <p class="card-text">Some quick  build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                              </div>
+                              <div class="card" style="width: 15rem;">
+                                <div class="w-100 fa-3x position-relative"><i class="fa-solid fa-gamepad p-3"></i><div class="minibit1 position-absolute"></div></i> </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">Games</h5>
+                                  <p class="card-text">make up the bulk of the card's content. Lorem ipsum dolor sit amet.</p>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="d-flex flex-column justify-content-start p-3">
+                            <div class="card mb-3" style="width: 15rem;">
+                                <div class="w-100 fa-3x position-relative"><i class="fa-solid fa-podcast p-3"></i><div class="minibit position-absolute color"></div></i> </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Branding</h5>
+                                <p class="card-text"> make up the bulk of the card's content. Lorem ipsum dolor sit amet.</p>
+                              </div>
+                            </div>
+                            <div class="card" style="width: 15rem;">
+                                <div class="w-100 fa-3x position-relative"><i class="fa-brands fa-facebook-f fa-facebook-f1 border p-3" ></i><div class="minibit3 position-absolute bg-warning"></div></i> </div>
+                              <div class="card-body">
+                                <h5 class="card-title">Marketing</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div> 
+                      </div>
+                    </div>
+            </div>
+        </div>
+       </div>
+       <!-- our service end -->
+       <!-- textimodiols -->
+       <div class="fluid-container bg-dark color" id="test">
+        <div class="container" id="map">
+            <div class="row position-relative">
+                <div class="d-flex  position-absolute justify-content-end" id="cirleimage4">
+                    <ul class="text-white">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <ul class="text-white">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div>
+                    <div id="cirleimage" class=" position-relative"><img style="width: 50px;height: 50px;" class="rounded-circle" src="image/smile6.jfif" alt="no image found"> <img style="width: 50px;height: 50px;" class="rounded-circle float-end" src="image/smile4.jfif" alt="no image found"></div>
+                    <div id="cirleimage1" class=" position-relative"><img style="width: 50px;height: 50px;" class="rounded-circle" src="image/smile3.jfif" alt="no image found"> <img style="width: 50px;height: 50px;" class="rounded-circle float-end" src="image/smile1.jfif" alt="no image found"></div>
+                    <div id="cirleimage2" class=" position-relative"><img style="width: 50px;height: 50px;" class="rounded-circle" src="image/smile2.jfif" alt="no image found"> <img style="width: 50px;height: 50px;" class="rounded-circle float-end" src="image/smile5.jfif" alt="no image found"></div>
+                    
+                </div>
+
+                <!-- next -->
+                <div class="text-center text-white position-relative " id="tesimoticals">
+                    <h5>TESTIMONIALS</h5>
+                <H1>what people say</H1>
+                
+                <div class="col w-50 m-auto bg-white rounded-3 p-3 text-center  text-dark position-relative"  id="row4">  
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit, veniam et nihil dicta veritatis. Qui nisi officia commodi praesentium vitae libero, obcaecati maxime amet mollitia aspernatur ipsam, eos delectus.</p>
+                        <div class="pb-3">
+                            <h3>zoltan Nemeth 1</h3>
+                            <div><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i></div>
+                        </div>
+                    </div>
+                    <!--button 1  -->
+                    <div class=" d-flex justify-content-center pb-3"><button class="rounded-pill me-2 btncolor" id="slidebtn1" onclick="slidenagative(id,'row42')"><i class="fa-solid fa-arrow-left"></i></button><button class="btncolor rounded-pill" id="slidebtn2" onclick="slide(id,'row41')"><i class="fa-solid fa-arrow-right"></i></button></div>
+                </div>
+                <div class="rounded-3 bg-white p-3 text-center text-dark position-relative"  id="row41">  
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit, veniam et nihil dicta veritatis. Qui nisi officia commodi praesentium vitae libero, obcaecati maxime amet mollitia aspernatur ipsam, eos delectus.</p>
+                        <div class="pb-3">
+                            <h3>zoltan Nemeth 2</h3>
+                            <div><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i></div>
+                        </div>
+                    </div>
+                    <!--button 2  -->
+                    <div class=" d-flex justify-content-center pb-3"><button class="rounded-pill me-2 btncolor" id="slidebtn1" onclick="slidenagative(id,'row41','row4','row42')"><i class="fa-solid fa-arrow-left"></i></button><button class="btncolor rounded-pill"  id="slidebtn2" onclick="slide(id,'row42')"><i class="fa-solid fa-arrow-right"></i></button></div>
+                </div>
+                <div class="col bg-white rounded-3 p-3 text-center text-dark"  id="row42">  
+                    <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi impedit, veniam et nihil dicta veritatis. Qui nisi officia commodi praesentium vitae libero, obcaecati maxime amet mollitia aspernatur ipsam, eos delectus.</p>
+                        <div class="pb-3">
+                            <h3>zoltan Nemeth 3</h3>
+                            <div><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i><i class="fa-solid fa-star" id="star"></i></div>
+                        </div>
+                    </div>
+                    <!--button 3  -->
+                    <div class=" d-flex justify-content-center pb-3"><button class="rounded-pill me-2 btncolor"  id="slidebtn1" onclick="slidenagative(id,'row4')"><i class="fa-solid fa-arrow-left"></i></button><button class="rounded-pill btncolor"><i class="fa-solid fa-arrow-right"></i></button></div>
+                </div>
+            </div>
+
+            </div>
+            <div class="d-flex  position-relative" id="cirleimage3">
+                <ul class="text-white">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="text-white">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+       </div>
+       <!-- textimodiols  end-->
+       <!-- support us  -->
+       <div class="fluid-container p-5" id="gotosupport">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-5 d-flex justify-content-end">
+                    <div class="p-4" id="homecda">
+                        <h5 class="text-color">CONTACT US</h5>
+                    <h1> Don't Hesitate to Contactus for any Information.</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore laudantium assumenda exercitationem sequi officia rem numquam enim a sunt sit omnis quaerat quasi non ipsam, eaque id dolorem velit dolores?</p>
+                    </div>
+                </div>
+                <!-- form -->
+                <div class="col-lg-6 m-auto position-relative">
+                    <div class="circle rounded-circle position-absolute" id="formcircle"></div>
+                    <form  class=" shadow p-5 rounded-3 w-75  m-auto d-flex justity-content-between flex-column position-relative" id="form1">
+                        <fieldset class="reset border pb-3 form-control">
+                            <legend class="reset">Full Name</legend>
+                            <input type="text" name="name" placeholder="arulmanikandan" class="form-control border border-0" id="textvalue">
+                        </fieldset>
+                            <input type="email" name="email" class="form-control my-2" id="email" placeholder="Email">
+                            <textarea name="textarea" class="form-control mb-4" id="txtarea" cols="20" rows="5" placeholder="Message"></textarea>
+                            <div><button class="btn border border-0 bg-warning w-50 rounded-pill" id="submitbtn">SUBMIT</button></div>
+                        </form>
+                    <form class="form shadow rounded-3 w-75 m-auto p-3 " id="form2">
+                    </form>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- support us  end-->
+       <!-- footer  -->
+       <div class="fluid-container color p-5" id="agencyradius">
+        <div class="container p-3">
+            <div class="row d-flex align-items-center">
+                <div class="col text-center" id="agency">agency</div>
+                <div class="col py-2">
+                    <ul class="d-flex list-unstyled justify-content-between">
+                    <li class="ps-2" ><a href="#structureBody" class="text-white text-decoration-none">Home</a></li>
+                    <li class="ps-2"><a href="#gotoaboutus" class="text-white text-decoration-none">About us</a></li>
+                    <li class="ps-2"><a href="#gotoservices" class="text-white text-decoration-none">Our Services</a></li>
+                    <li class="ps-2"><a href="#gotosupport" class="text-white text-decoration-none">support</a></li>
+                    </ul>
+                </div>
+                <div class="col d-flex justify-content-start justify-content-sm-end  text-white" id="footericon">
+                    <!-- <div class="tools" title="facebook"><i class="fa-brands fa-facebook border rounded-circle text-white"></i></div> <div title="twitter"><i class="fa-brands fa-twitter"></i> </div><div><i class="fa-brands fa-linkedin-in"></i></div><div> <i class="fa-solid fa-wifi"></i></div><div> <i class="fa-solid fa-basketball"></i></div>  </i>-->
+                    <i class="fa-brands fa-facebook-f border-0 shadow p-3 rounded-pill me-2 position-relative" id="footicon" onmouseover="iconj(id,'iconfb')"><span id="iconfb">Facebook</span></i> <i class="fa-brands fa-linkedin-in p-3 rounded-circle shadow me-2 position-relative" id="footicon1" onmouseover="iconj(id,'linkedin')"><span id="linkedin">linkedin</span></i></i><i class="fa-brands fa-youtube p-3 rounded-circle shadow me-2 position-relative" id="footicon2" onmouseover="iconj(id,'youtube')"><span id="youtube">YouTube</span></i><i class="fa-brands fa-twitter p-3 rounded-circle shadow position-relative" id="footicon3" onmouseover="iconj(id,'twitter')"><span id="twitter">twitter</span></i>
+                </div>
+            </div>
+            <div class="row2 text-white py-2">
+                <div class="col text-center">Copyright &copy; Chirag Bactor 2020</div>
+            </div>
+        </div>
+       </div>
+
+    </div>
+
+    
+    <script type="text/javascript" src="script.jsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
